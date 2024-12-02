@@ -1,0 +1,51 @@
+# Node modules
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Production
+*.prod.js
+*.bundle.js
+*.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Vscode settings
+.vscode/
+
+# Mac OS files
+*.swp
+*.swo
+
+# Debugging
+*.log
+
+# Optional: Ignore coverage and test reports
+/coverage
+/lcov-report
+*.lcov
+
+# Ignore dependency directories if using package managers other than npm
+**/yarn.lock
+**/package-lock.json
+
+# Ignore custom configurations or temporary files
+*.cache
+*.tmp
+*.bak

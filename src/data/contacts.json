@@ -1,0 +1,69 @@
+[
+    {
+      "firstName": "Rajeev",
+      "lastName": "Sharma",
+      "dob": "1986-02-12",
+      "address": "1001 NOBLE ST STE 1",
+      "city": "FAIRBANKS",
+      "state": "AK",
+      "zip": "99701",
+      "email": "rajeevsharma@gmail.com",
+      "phone": "2582528582"
+    },
+    {
+      "firstName": "Eesha",
+      "lastName": "Sharma",
+      "dob": "1995-07-04",
+      "address": "4821 RIDGE TOP CIR",
+      "city": "ANCHORAGE",
+      "state": "AK",
+      "zip": "99508",
+      "email": "eeshasharma@gmail.com",
+      "phone": "5825858258"
+    },
+    {
+      "firstName": "Amit",
+      "lastName": "Gupta",
+      "dob": "1990-03-15",
+      "address": "221B BAKER STREET",
+      "city": "LONDON",
+      "state": "UK",
+      "zip": "NW16XE",
+      "email": "amitgupta@example.com",
+      "phone": "4456781234"
+    },
+    {
+      "firstName": "Neha",
+      "lastName": "Verma",
+      "dob": "1988-09-30",
+      "address": "350 FIFTH AVENUE",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "10118",
+      "email": "nehaverma@example.com",
+      "phone": "1234567890"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "dob": "1975-05-20",
+      "address": "742 EVERGREEN TERRACE",
+      "city": "SPRINGFIELD",
+      "state": "IL",
+      "zip": "",
+      "email": "johndoe@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Brown",
+      "dob": "2000-11-15",
+      "address": "1 INFINITE LOOP",
+      "city": "CUPERTINO",
+      "state": "CA",
+      "zip": "95014",
+      "email": "lisabrown@example.com",
+      "phone": "4567891234"
+    }
+  ]
+  
