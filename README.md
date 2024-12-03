@@ -84,6 +84,77 @@ Before running the app, ensure you have the following installed:
    - The selected person's data will be displayed in a right side of the page as mentioned in requirements.
 
 ---
+# Test Cases for Contact Search Feature
+
+## Overview
+This document outlines test cases for the Contact Search Feature built using React and Material UI. These test cases validate the functionality, UI behavior, and usability of the application.
+
+---
+
+## Test Case Template
+
+| **Test Case ID** | **Test Scenario** | **Test Steps** | **Expected Results** | **Sample Data (if applicable)** |
+|-------------------|--------------------|----------------|-----------------------|----------------------------------|
+
+---
+
+## Test Cases
+
+### **Search Filters**
+
+| **Test Case ID** | **Test Scenario**              | **Test Steps**                                                                                   | **Expected Results**                                                                                                                                                       | **Sample Data**                         |
+|-------------------|--------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| TC001             | Search by First Name          | 1. Enter `John` in the First Name field.<br>2. Click "Search".                                    | The table displays only rows where the `First Name` matches `John`.                                                                                                       | `{"firstName": "John"}`              |
+| TC002             | Search by Last Name           | 1. Enter `Doe` in the Last Name field.<br>2. Click "Search".                                      | The table displays only rows where the `Last Name` matches `Doe`.                                                                                                         | `{"lastName": "Doe"}`                |
+| TC003             | Search by Date of Birth       | 1. Enter `1990-01-01` in the Date of Birth field.<br>2. Click "Search".                          | The table displays only rows where the `DOB` matches `1990-01-01`.                                                                                                        | `{"dob": "1990-01-01"}`              |
+| TC004             | Search by Email Address       | 1. Enter `john.doe@example.com` in the Email Address field.<br>2. Click "Search".                | The table displays only rows where the `Email` matches `john.doe@example.com`.                                                                                            | `{"email": "john.doe@example.com"}`  |
+| TC005             | Search by Phone Number        | 1. Enter `1234567890` in the Phone Number field.<br>2. Click "Search".                           | The table displays only rows where the `Phone` matches `1234567890`.                                                                                                      | `{"phone": "1234567890"}`            |
+| TC006             | Search by Multiple Criteria   | 1. Enter `Jane` in the First Name field.<br>2. Enter `1985-05-15` in the Date of Birth field.<br>3. Click "Search". | The table displays rows that match `First Name: Jane` **and** `DOB: 1985-05-15`.                                                                                          | `{"firstName": "Jane", "dob": "1985-05-15"}` |
+
+---
+
+### **Search Results**
+
+| **Test Case ID** | **Test Scenario**                    | **Test Steps**                                                                                  | **Expected Results**                                                                                                                       | **Sample Data**                         |
+|-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| TC007             | Display results in a table format   | 1. Enter valid search criteria.<br>2. Click "Search".                                           | The table displays results matching the search criteria.                                                                                     | N/A                                      |
+| TC008             | Validate displayed columns          | 1. Enter valid search criteria.<br>2. Click "Search".                                           | The table displays columns for `Name`, `Date of Birth`, `Address`, `City`, `State`, `Zip Code`, `Email`, and `Phone Number`.                           | N/A                                      |                                     |
+
+---
+
+### **Pagination**
+
+| **Test Case ID** | **Test Scenario**                    | **Test Steps**                                                                                  | **Expected Results**                                                                                                                       | **Sample Data**                         |
+|-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| TC009             | Display 2 records per page          | 1. Ensure more than 2 records exist.<br>2. Perform a search.<br>3. Check the displayed results.  | Only 2 records are displayed on the first page.                                                                                             | N/A                                      |
+| TC010             | Navigate to next page               | 1. Perform a search that results in more than 2 records.<br>2. Click the "Next Page" button.    | The table displays the next set of 2 records.                                                                                               | N/A                                      |
+
+---
+
+### **Single Contact Selection**
+
+| **Test Case ID** | **Test Scenario**                          | **Test Steps**                                                                                  | **Expected Results**                                                                                                                       | **Sample Data**                         |
+|-------------------|--------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| TC011             | Select a contact                          | 1. Search for a contact.<br>2. Click the checkbox for the desired contact.                      | The contact’s details (`Address`, `City`, `Zip`, `State`, etc.) are populated in the form below.                                           | N/A                                      |
+
+---
+
+### **UI/UX**
+
+| **Test Case ID** | **Test Scenario**                     | **Test Steps**                                                                                  | **Expected Results**                                                                                                                       | **Sample Data**                         |
+|-------------------|---------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| TC012             | Verify responsive layout             | 1. Open the application in different screen sizes (desktop, tablet, mobile).                   | The application layout adjusts properly, with no overlapping or broken components.                                                          | N/A                                      |
+
+---
+
+## Execution Steps
+
+1. Run the application locally or use [Contact Search App](https://jaivik3438.github.io/Assignment-2creativ).
+2. Use the provided sample data to execute each test case.
+3. Record results as **Pass/Fail** for documentation.
+
+---
+
 
 ## 🖼️ Screenshots
 

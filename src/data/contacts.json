@@ -46,13 +46,13 @@
     {
       "firstName": "John",
       "lastName": "Doe",
-      "dob": "1975-05-20",
-      "address": "742 EVERGREEN TERRACE",
-      "city": "SPRINGFIELD",
+      "dob": "1990-01-01",
+      "address": "123 Main St",
+      "city": "Springfield",
       "state": "IL",
-      "zip": "",
-      "email": "johndoe@example.com",
-      "phone": "9876543210"
+      "zip": "62701",
+      "email": "john.doe@example.com",
+      "phone": "1234567890"
     },
     {
       "firstName": "Lisa",
