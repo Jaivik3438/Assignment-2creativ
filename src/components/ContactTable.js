@@ -28,7 +28,7 @@ const ContactTable = ({
             <TableRow>
               <TableCell></TableCell>
               <TableCell>Name</TableCell>
-              <TableCell>DOB</TableCell>
+              <TableCell>Date of Birth</TableCell>
               <TableCell>Address</TableCell>
               <TableCell>City</TableCell>
               <TableCell>State</TableCell>
