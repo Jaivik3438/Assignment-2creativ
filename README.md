@@ -1,70 +1,153 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📇 Contact Search App
 
-## Available Scripts
+Welcome to the **Contact Search App**! This React-based application allows users to search for contacts from a given JSON data set. It features multiple search filters, displays results in a table format, and allows single contact selection with data updates. This project is built using **React** and **Material-UI** for a modern, user-friendly interface. To use this application click on this link. [Contact Search App](https://jaivik3438.github.io/Assignment-2creativ) 
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Project Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search Filters**: Search for contacts by:
+  - First Name
+  - Last Name
+  - Date of Birth
+  - Email Address
+  - Phone Number
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search Results Table**: Display search results with the following details:
+  - Name
+  - Date of Birth
+  - Address
+  - City
+  - State
+  - Zip Code
+  - Email Address
+  - Phone Number
 
-### `npm test`
+- **Pagination**: Navigate through large datasets with ease.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Single Contact Selection**: Select a contact from the search results, and the app will automatically update the record with that contact's data on the right side of the page.
 
-### `npm run build`
+- **User-Friendly Interface**: A clear, responsive, and modern UI using Material-UI for seamless interaction.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📋 Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before running the app, ensure you have the following installed:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (package manager)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Installation Guide
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Jaivik3438/Assignment-2creativ.git
+   cd contact-search-app
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   # OR
+   yarn install
+   ```
 
-## Learn More
+3. **Run the App Locally**:
+   ```bash
+   npm start
+   # OR
+   yarn start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   The app will be available at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 💡 Usage Guide
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### How to Use the App
 
-### Analyzing the Bundle Size
+1. **Enter Search Criteria**:
+   - Use the search bar to filter contacts by first name, last name, date of birth, email, or phone number.
+   - Input one or more filters as needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **View Results**:
+   - Search results will be displayed in a table with all relevant contact details.
+   - Results are paginated to make browsing large datasets easier.
 
-### Making a Progressive Web App
+3. **Select a Contact**:
+   - Click on a checkbox in the table to select individual.
+   - The selected person's data will be displayed in a right side of the page as mentioned in requirements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🖼️ Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Here are some screenshots to give you an overview of the app:
 
-### Deployment
+### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Home Page Screenshot](application-screenshots/Application-dashboard.png)
 
-### `npm run build` fails to minify
+### Search Results
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Search Results Screenshot](application-screenshots/Application-result.png)
+
+---
+
+## 📦 Technologies Used
+
+- **React**: The core library for building the user interface.
+- **Material-UI**: Provides a modern design and responsive components.
+- **JavaScript**: The programming language used to build the app.
+
+---
+
+## ⚙️ Live Application Link 
+- **Live Application**: [Contact Search App](https://jaivik3438.github.io/Assignment-2creativ) 
+
+---
+
+## ⚙️ Deployment on GitHub Pages
+
+To deploy the app on GitHub Pages, follow these steps:
+
+1. **Install `gh-pages`**:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+2. **Add a `homepage` property in `package.json`**:
+   ```json
+   "homepage": "https://yourusername.github.io/contact-search-app"
+   ```
+
+3. **Add deployment scripts in `package.json`**:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+
+4. **Deploy the App**:
+   ```bash
+   npm run deploy
+   ```
+
+   Your app will be live at `https://yourusername.github.io/contact-search-app`.
+
+---
+
+## 🤝 Acknowledgements
+
+- **React** and **Material-UI** for building modern web apps.
+- Open-source community for providing excellent tools and libraries.
+
+---
+
+Thank you for using the **Contact Search App**! We hope it helps you manage and search your contacts efficiently. 🌟
